@@ -1,4 +1,4 @@
-var evtSource = new EventSource("/hello/events");
+var evtSource = new EventSource("/author/events");
 
 evtSource.onmessage = function(e) {
     var newElement = document.createElement("li");
