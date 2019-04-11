@@ -1,0 +1,9 @@
+micronaut:
+    application:
+        name: playground
+    router:
+        static-resources:
+            default:
+                enabled: true
+                paths: classpath:public
+                mapping: /**
